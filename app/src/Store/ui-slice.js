@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-const uiInitialState = {cartIsVisible: false};
+const uiInitialState = {cartIsVisible: true};
 
 const uiSlice = createSlice({
     name: 'ui',

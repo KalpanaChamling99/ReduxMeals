@@ -7,7 +7,15 @@ const Cart = () => {
         <Card class={classes['cart-item-section']}>
             <h3 className={classes.title}>Your Shopping Cart</h3>
             <ul className={classes['cart-item-list']}>
-                <CartItem />
+                <CartItem 
+                    items = {{
+                        name: 'pasta',
+                        quantity: '30',
+                        price: '300',
+                        total: '600',
+                    }}
+
+                />
             </ul>
         </Card>
     ); 

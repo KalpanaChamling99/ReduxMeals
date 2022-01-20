@@ -20,7 +20,8 @@ const DUMMY_MEAL = [
 const ProductList = props =>{
     const productList = DUMMY_MEAL.map((item)=>(
         <ProductItem 
-            productname={item.name}
+            id={item.id}
+            name={item.name}
             price={item.price}
             key={item.id}
             description={item.description}
