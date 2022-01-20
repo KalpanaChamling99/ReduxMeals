@@ -1,0 +1,34 @@
+.cart-btn{
+    display: inline-block;
+    background-color: purple;
+    padding: 0 30px;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    font-weight: 600;
+    .counter{
+        display: inline-block;
+        margin-left: 10px;
+        background-color: #fff;
+        color: purple;
+        height: 25px;
+        width: 25px;
+        border-radius: 100%;
+        line-height: 25px;
+        font-size: 14px;
+    }
+}
+header{
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .site-title{
+        margin: 0;
+    }
+}

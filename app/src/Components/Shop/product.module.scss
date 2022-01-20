@@ -1,0 +1,53 @@
+.product{
+   
+    .price{
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 20px;
+        background-color: purple;
+        color: #fff;
+        border-radius: 25px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    p,
+    .name{
+        margin: 10px 0 0;
+    }
+    button{
+        background-color: transparent;
+        border: 2px solid purple;
+        height: 40px;
+        line-height: 36px;
+        padding: 0 30px;
+        color: purple;
+        font-weight: 600;
+        font-style: 16px;
+        border-radius: 5px;
+    }
+    .btn-section{
+        margin-top: 15px;
+    }
+}
+.product-section{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    padding-bottom: 45px;
+    .section-title{
+        margin: 0;
+        padding-top: 15px;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+    }
+    li{
+        margin-top: 20px;
+        border-top: 2px solid #f1f1f1;
+    }
+}
