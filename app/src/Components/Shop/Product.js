@@ -6,13 +6,13 @@ const DUMMY_MEAL = [
     {
         id: 'p1',
         name: 'Pasta',
-        price: '30',
+        price: 30,
         description: "Italian Food"
     },
     {
         id: 'p2',
         name: 'momo',
-        price: '40',
+        price: 40,
         description: "Nepali Food"
     }
 ];
