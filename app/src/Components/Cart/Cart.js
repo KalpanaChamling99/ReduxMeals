@@ -5,6 +5,7 @@ import classes from './cart.module.scss';
 
 const Cart = (props) => {
     const cartItems = useSelector((state) => state.cart.items);
+    
     return(
         <Card class={classes['cart-item-section']}>
             <h3 className={classes.title}>Your Shopping Cart</h3>
